@@ -47,7 +47,7 @@ Siendo estos registros:
 
 1295, 1612, 1994, 2437, 2863, 2902, 3117, 3769, 4345, 5079, 5250, 5255, 5798, 7187, 7244, 7281, 8268, 8557, 8720, 8996, 9235, 10339, 10475, 10629
 
-Decidí eliminarlos ya que representaban una proporción del 1% de mis datos y para determinar más adelante RFM se requiere del dato del ingreso anual dolar
+Decidí eliminarlos ya que representaban una proporción del 1% de mis datos y me interesa tener datos completos.
 
 ## **Hoja 2: resumen_compras**
 
@@ -142,16 +142,20 @@ Se usan histogramas para visualizar variables numéricas. Un histograma te muest
 - La forma de la distribución: Te ayuda a ver si los datos están concentrados en un rango específico, si hay valores atípicos (outliers), o si la distribución es sesgada.
 
 Aquí el análisis descriptivo de variables numéricas:
-| Column 1 | Media | Mediana | Desv. Estándar | Mínimo | Máximo | Percentiles (25) | Percentiles (50) | Percentiles (75) |
-|-------------------|-------------|-------------|-----------|----------------|--------|--------|------------------|------------------|
-| ingreso_anual_dolar | 52247.25135 | 51381.5 | 25173.07666 | 1730 | 666666 | 35303 | 51381.5 | 68522 |
-| monto_vino | 305.0916065 | 174.5 | 337.3279201 | 0 | 1493 | 24 | 174.5 | 505 |
-| monto_frutas | 26.35604693 | 8 | 39.79391652 | 0 | 199 | 2 | 8 | 33 |
-| monto_carnes | 166.9959386 | 68 | 224.2832728 | 0 | 1725 | 16 | 68 | 232.25 |
-| monto_pescados | 37.63763538 | 12 | 54.75208241 | 0 | 259 | 3 | 12 | 50 |
-| monto_dulces | 27.02888087 | 8 | 41.07204567 | 0 | 262 | 1 | 8 | 33 |
-| monto_otros | 43.96525271 | 24.5 | 51.81541437 | 0 | 321 | 9 | 24.5 | 56 |
-| edad | 56.08122744 | 55 | 11.69235785 | 29 | 85 | 48 | 55 | 66 |
+
+| Column 1                | Media       | Mediana | Desv. Estándar | Mínimo | Máximo | Percentiles (25) | Percentiles (50) | Percentiles (75) |
+| ----------------------- | ----------- | ------- | -------------- | ------ | ------ | ---------------- | ---------------- | ---------------- |
+| ingreso_anual_dolar     | 52247.25135 | 51381.5 | 25173.07666    | 1730   | 666666 | 35303            | 51381.5          | 68522            |
+| monto_vino              | 305.0916065 | 174.5   | 337.3279201    | 0      | 1493   | 24               | 174.5            | 505              |
+| monto_frutas            | 26.35604693 | 8       | 39.79391652    | 0      | 199    | 2                | 8                | 33               |
+| monto_carnes            | 166.9959386 | 68      | 224.2832728    | 0      | 1725   | 16               | 68               | 232.25           |
+| monto_pescados          | 37.63763538 | 12      | 54.75208241    | 0      | 259    | 3                | 12               | 50               |
+| monto_dulces            | 27.02888087 | 8       | 41.07204567    | 0      | 262    | 1                | 8                | 33               |
+| monto_otros             | 43.96525271 | 24.5    | 51.81541437    | 0      | 321    | 9                | 24.5             | 56               |
+| edad                    | 56.08122744 | 55      | 11.69235785    | 29     | 85     | 48               | 55               | 66               |
+| Número de transacciones | 9.890794224 | 10      | 5.214910564    | 1      | 27     | 5                | 10               | 14               |
+| Gasto_total             | 607.075361  | 396.5   | 602.9004764    | 5      | 2525   | 69               | 396.5            | 1048             |
+| Recencia                | 169.6272563 | 134.00  | 147.6415067    | 0.00   | 879.00 | 54               | 134              | 245              |
 
 ## Cálculo de cuartiles
 
